@@ -30,7 +30,7 @@ docs/
 ```
 
 ## Project Context
-This project was created to strengthen my understanding of how databases are structured, maintained, and optimized in support of analytics and reporting. It reflects hands-on practice with SQL and core database concepts that improve collaboration with DBA's to strengthen data quality, performance and reliability. (Re-word before posting). 
+This project was created to strengthen my understanding of how databases are structured, maintained, and optimized in support of analytics and reporting. It reflects hands-on practice with SQL and core database concepts, with an emphasis on improving data quality, query performance, and collaboration with database administrators.
 
 ## How This Repository is Used
 - Reinforce relational database concepts that support analytics wrk
