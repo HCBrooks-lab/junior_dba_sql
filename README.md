@@ -18,6 +18,7 @@ integrity checks, and performance-aware querying.
 - T-SQL syntax
 
 ## Repository Structure
+```
 sql/
 ├── basic_queries.sql
 ├── joins_and_aggregates.sql
@@ -25,6 +26,7 @@ sql/
 └── maintenance_concepts.sql
 docs/
 └── notes.md
+```
 
 ## Project Context
 This project was created to strengthen my understanding of how databases are structured, maintained, and optimized in support of analytics and reporting. It reflects hands-on practice with SQL and core database concepts that improve collaboration with DBA's to strengthen data quality, performance and reliability. (Re-word before posting). 
