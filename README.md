@@ -1,9 +1,12 @@
 # Junior DBA SQL Practice
-This repository contains foundational SQL and database administration concepts aligned with a Junior Database Administrator role. It is designed to demonstrate core database concepts, clean SQL practices, and an understanding of entry-level DBA responsibilities. 
+## Project Purpose
+This repository demonstrates junior-level SQL and database administration fundamentals, focusing on real-world tasks such as querying, data 
+integrity checks, and performance-aware querying.
+
 
 ## Focus Areas
 - Relational database fundamentals
-- Writing & validating SQL queries
+- Writing & validating SQL queries, comments
 - Understanding joins, aggregations, & filters
 - Index awareness & basic performance concepts
 - Database maintenance concepts (backups, restores, monitoring, patching)
@@ -31,6 +34,15 @@ This project was created to strengthen my understanding of how databases are str
 - Practice writing clear, well-documented SQL
 - Build awareness of database performance & maintenance considerations
 - Serve as a growing reference alongside analytics-focused projects
+
+## Skills Demonstrated
+- Writing SELECT queries with filtering, joins, and aggregations
+- Understanding table relationships & keys
+- Basic database administration concepts
+- Query readability & structure
+
+## Scope of This Repository
+This repository focuses on foundational SQL and database administration concepts commonly expected at the junior level. The goal is to demonstrate understanding of database structure, querying logic, and best practices through clear, readable examples.
 
 ## Notes
 All examples are intended for learning and demonstration purposes. Scripts may have comments examples explaining database concepts rather than production-ready implementations. 
