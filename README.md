@@ -18,6 +18,7 @@ integrity checks, and performance-aware querying.
 - T-SQL syntax
 
 ## Repository Structure
+This repository is organized by SQL concept, with supporting documentation stored separately. 
 ```
 sql/
 ├── basic_queries.sql
