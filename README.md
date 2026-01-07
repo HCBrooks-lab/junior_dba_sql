@@ -21,7 +21,7 @@ integrity checks, and performance-aware querying.
 This repository is organized by SQL concept, with supporting documentation stored separately. 
 ```
 sql/
-├── basic_queries.sql
+├── 01_select_basic_filters.sql - Basic SELECT queries, filtering, sorting and simple aggregation 
 ├── joins_and_aggregates.sql
 ├── index_basics.sql
 └── maintenance_concepts.sql
