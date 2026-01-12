@@ -3,6 +3,10 @@
 This repository demonstrates junior-level SQL and database administration fundamentals, focusing on real-world tasks such as querying, data 
 integrity checks, and performance-aware querying.
 
+# How to Use This Repo
+- Each file is self-contained.
+- Queries include business-purpose comments.
+- Designed to demonstrate Junior DBA readiness. 
 
 ## Focus Areas
 - Relational database fundamentals
