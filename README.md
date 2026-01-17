@@ -1,7 +1,16 @@
 # Junior DBA SQL Practice
-## Project Purpose
-This repository demonstrates junior-level SQL and database administration fundamentals, focusing on real-world tasks such as querying, data 
-integrity checks, and performance-aware querying.
+## Purpose of This Project
+This repository demonstrates hands-on practice with SQL and relational database fundamentals commonly expected of a Junior DBA or entry-level data professional.
+
+The focus is on understanding database structure, writing maintainable queries, and working with a real SQLite database file rather than isolated SQL examples.
+
+## Skills Demonstrated
+- Relational database design awareness
+- SQL querying (SELECT, WHERE, GROUP BY, JOIN)
+- Working with SQLite databases
+- Query organization and documentation
+- Database inspection using DB Browser for SQLite
+- Version control for database-related work
 
 # How to Use This Repo
 - Each file is self-contained.
