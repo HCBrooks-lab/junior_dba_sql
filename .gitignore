@@ -1,2 +1,4 @@
 # SQLite Browser project files
 *.sqbproo
+.DS_Store
+
