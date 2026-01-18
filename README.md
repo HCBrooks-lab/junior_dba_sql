@@ -1,64 +1,76 @@
 # Junior DBA SQL Practice
+
 ## Purpose of This Project
 This repository demonstrates hands-on practice with SQL and relational database fundamentals commonly expected of a Junior DBA or entry-level data professional.
 
-The focus is on understanding database structure, writing maintainable queries, and working with a real SQLite database file rather than isolated SQL examples.
+The focus is on understanding database structure, writing readable and maintainable queries, and working with a real SQLite database file rather than isolated SQL snippets.
+
+---
+
+## Project Context
+This project was created to strengthen my understanding of how databases are structured, queried, validated, and maintained in support of analytics and reporting.  
+It emphasizes practical SQL usage, data quality awareness, and clear organization aligned with real-world workflows.
+
+---
 
 ## Skills Demonstrated
 - Relational database design awareness
-- SQL querying (SELECT, WHERE, GROUP BY, JOIN)
+- SQL querying (SELECT, WHERE, GROUP BY, HAVING, JOIN)
 - Working with SQLite databases
+- Data quality validation and sanity checks
 - Query organization and documentation
-- Database inspection using DB Browser for SQLite
+- Understanding table relationships and keys
+- Basic database administration concepts
 - Version control for database-related work
 
-# How to Use This Repo
-- Each file is self-contained.
-- Queries include business-purpose comments.
-- Designed to demonstrate Junior DBA readiness. 
+---
 
 ## Focus Areas
 - Relational database fundamentals
-- Writing & validating SQL queries, comments
-- Understanding joins, aggregations, & filters
-- Index awareness & basic performance concepts
-- Database maintenance concepts (backups, restores, monitoring, patching)
-- Clear documentation & reproducible workflows
+- Writing clear, well-documented SQL queries
+- Filtering, aggregations, and joins
+- Data quality and integrity checks
+- Query readability and maintainability
+- Understanding analytics-supporting database workflows
+
+---
 
 ## Technologies
-- Microsoft SQL Server (conceptual & hands-on practice)
-- SQLite (local practice)
-- T-SQL syntax
+- SQLite (local practice database)
+- SQL (ANSI-style with SQLite compatibility)
+- T-SQL concepts (applied conceptually)
+- DB Browser for SQLite
+- Git & GitHub for version control
+
+---
 
 ## Repository Structure
-This repository is organized by SQL concept, with supporting documentation stored separately. 
-```
+This repository is organized by SQL concept and workflow stage.
+`
 sql/
-├── 01_select_basic_filters.sql - Basic SELECT queries, filtering, sorting and simple aggregation 
-├── joins_and_aggregates.sql
-├── index_basics.sql
-└── maintenance_concepts.sql
-docs/
-└── notes.md
-```
+├── 00_all_queries_ref.sql # Non-executable SQL reference & pattern library
+├── 02_basic_selects.sql # Foundational SELECT queries and filters
+├── 03_aggregations.sql # GROUP BY and aggregation examples
+├── 04_joins.sql # INNER and LEFT JOIN examples
+├── 05_data_quality_checks.sql # Data validation and integrity checks
+├── 06_exploratory_patterns.sql # Sorting, LIMIT, and HAVING patterns
+`
 
-## Project Context
-This project was created to strengthen my understanding of how databases are structured, maintained, and optimized in support of analytics and reporting. It reflects hands-on practice with SQL and core database concepts, with an emphasis on improving data quality, query performance, and collaboration with database administrators.
+* Files `01–06` are intended to be runnable and self-contained.  
+*`00_all_queries_ref.sql` is explicitly a reference-only file and not meant to be executed.
 
-## How This Repository is Used
-- Reinforce relational database concepts that support analytics wrk
-- Practice writing clear, well-documented SQL
-- Build awareness of database performance & maintenance considerations
-- Serve as a growing reference alongside analytics-focused projects
+---
 
-## Skills Demonstrated
-- Writing SELECT queries with filtering, joins, and aggregations
-- Understanding table relationships & keys
-- Basic database administration concepts
-- Query readability & structure
+## How to Use This Repository
+- Each SQL file is self-contained and focused on a specific concept.
+- Queries include comments explaining intent and logic.
+- Files are designed to be read independently or sequentially.
+- The SQLite database (`practice.db`) is used locally for hands-on execution.
 
-## Scope of This Repository
-This repository focuses on foundational SQL and database administration concepts commonly expected at the junior level. The goal is to demonstrate understanding of database structure, querying logic, and best practices through clear, readable examples.
+---
 
 ## Notes
-All examples are intended for learning and demonstration purposes. Scripts may have comments examples explaining database concepts rather than production-ready implementations. 
+All examples are intended for learning and demonstration purposes.  
+Queries prioritize clarity and correctness over production optimization and are structured to reflect junior-level database and analytics readiness.
+
+
