@@ -2,5 +2,18 @@
 -- Practice basic SELECT queries and filtering
 -- practice.db
 
-Add basic SELECT queries SQL file
+
+
+-- Basic Record Retrieval 
+
+SELECT *
+FROM example_table;
+
+SELECT *
+FROM example_table
+WHERE status = 'active';
+
+SELECT COUNT(*) AS total_records
+FROM example_table;
+
 

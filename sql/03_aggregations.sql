@@ -2,5 +2,11 @@
 -- aggregate functions and GROUP BY
 -- practice.db
 
-Add aggregations SQL file
+-- Category-Level Aggregation
+
+SELECT
+    category,
+    COUNT(*) AS category_count
+FROM example_table
+GROUP BY category;
 
