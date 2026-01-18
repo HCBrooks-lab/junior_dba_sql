@@ -1,4 +1,4 @@
--- File: 03_exploratory_patterns.sql
+-- File: 06_exploratory_patterns.sql
 -- Exploration + common SQL patterns (sorting, top-N, HAVING)
 
 SELECT *
