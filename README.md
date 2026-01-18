@@ -46,18 +46,14 @@ It emphasizes practical SQL usage, data quality awareness, and clear organizatio
 
 ## Repository Structure
 This repository is organized by SQL concept and workflow stage.
-`
-sql/
-├── 00_all_queries_ref.sql # Non-executable SQL reference & pattern library
-├── 02_basic_selects.sql # Foundational SELECT queries and filters
-├── 03_aggregations.sql # GROUP BY and aggregation examples
-├── 04_joins.sql # INNER and LEFT JOIN examples
-├── 05_data_quality_checks.sql # Data validation and integrity checks
-├── 06_exploratory_patterns.sql # Sorting, LIMIT, and HAVING patterns
-`
-
-* Files `01–06` are intended to be runnable and self-contained.  
-*`00_all_queries_ref.sql` is explicitly a reference-only file and not meant to be executed.
+- `sql/00_all_queries_ref.sql` — Non-executable SQL reference and pattern library  
+- `sql/02_basic_selects.sql` — Foundational SELECT queries and filters  
+- `sql/03_aggregations.sql` — GROUP BY and aggregation examples  
+- `sql/04_joins.sql` — INNER and LEFT JOIN examples  
+- `sql/05_data_quality_checks.sql` — Data validation and integrity checks  
+- `sql/06_exploratory_patterns.sql` — Sorting, LIMIT, and HAVING patterns
+-  Files `01–06` are intended to be runnable and self-contained.  
+- `00_all_queries_ref.sql` is explicitly a reference-only file and not meant to be executed.
 
 ---
 
@@ -72,5 +68,3 @@ sql/
 ## Notes
 All examples are intended for learning and demonstration purposes.  
 Queries prioritize clarity and correctness over production optimization and are structured to reflect junior-level database and analytics readiness.
-
-
